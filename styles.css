@@ -1,3 +1,11 @@
+html {
+    background: rgb(89, 209, 141);
+}
+
+h1 {
+    text-align: center;
+}
+
 .column {
     width: 40%;
     float: left;
@@ -26,4 +34,22 @@
 }
 #Hadron { 
     background: linear-gradient(orange, yellow);
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+    html {
+        background: aquamarine
+    }
+}
+
+@media all and (max-width:501px) and (min-width: 300px) {
+    html {
+        background: lightsalmon
+    }
+
+    .card {
+        width: 100px;
+        height: 100px;
+        font-size: .5em;
+    }
 }
