@@ -1,4 +1,29 @@
 .column {
-    width: 300px;
+    width: 40%;
     float: left;
+    margin: 15px;
+}
+.card { 
+    width: 200px;
+    padding: 12px;
+    margin: 10px;
+    height: 200px;
+    float:left;
+}
+#spot {
+    background-image:radial-gradient(black,white, purple) ;
+   
+}
+#rover { 
+    background-image: linear-gradient(to right, brown, white);
+}
+
+#Lassie { 
+    background-image: linear-gradient(to left bottom, rgb(172, 63, 12), white);
+}
+#Mika {
+    background:radial-gradient(rgb(129, 129, 223), green) ;
+}
+#Hadron { 
+    background: linear-gradient(orange, yellow);
 }
